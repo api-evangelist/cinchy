@@ -1,0 +1,38 @@
+generated: '2026-07-18'
+method: searched
+source: https://docs.cinchy.com/api-guide/
+docs: https://docs.cinchy.com/api-guide/
+summary:
+  types: [http, oauth2, apiKey]
+  http_schemes: [bearer, basic]
+  oauth2_flows: [clientCredentials]
+  notes: >-
+    Cinchy is a per-tenant deployed platform (self-hosted or Cinchy-hosted), so
+    the base URL is tenant-specific. Authentication is served by an embedded
+    IdentityServer (OAuth2/OIDC) at the /identity/connect/token endpoint.
+schemes:
+  - name: bearerToken
+    type: http
+    scheme: bearer
+    description: >-
+      Access token obtained from the OAuth2 token endpoint (/identity/connect/token),
+      passed in the Authorization header.
+  - name: personalAccessToken
+    type: http
+    scheme: bearer
+    description: >-
+      User-generated Personal Access Token (PAT) passed as a bearer token in the
+      Authorization header for API access.
+  - name: basicAuth
+    type: http
+    scheme: basic
+    description: >-
+      HTTP Basic authentication via the /BasicAuthAPI/ URL prefix as an alternative
+      to bearer tokens.
+  - name: oauth2ClientCredentials
+    type: oauth2
+    flow: clientCredentials
+    tokenUrl: "<baseurl>/identity/connect/token"
+    description: >-
+      OAuth2-style token endpoint (IdentityServer) used to obtain access tokens for
+      programmatic API access.
