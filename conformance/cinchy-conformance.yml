@@ -1,0 +1,22 @@
+generated: '2026-07-18'
+method: derived
+source: https://docs.cinchy.com/api-guide/
+standards:
+  - id: oauth2
+    conforms: true
+    evidence: OAuth2 token endpoint /identity/connect/token (embedded IdentityServer).
+  - id: oidc
+    conforms: true
+    evidence: IdentityServer /identity/connect/* OpenID Connect endpoints back platform SSO.
+  - id: http-basic-auth
+    conforms: true
+    evidence: /BasicAuthAPI/ prefix supports RFC 7617 Basic authentication.
+  - id: rfc9457-problem-details
+    conforms: false
+    evidence: No application/problem+json error envelope documented.
+  - id: fhir-r4
+    conforms: false
+  - id: fapi
+    conforms: false
+  - id: scim
+    conforms: false

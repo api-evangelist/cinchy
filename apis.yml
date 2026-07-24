@@ -1,7 +1,29 @@
 aid: cinchy
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cinchy.png
 name: Cinchy
-description: Cinchy is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Cinchy is a data collaboration ("dataware") platform whose network-based data
+  architecture lets enterprise applications share live, governed data without making
+  copies or building point-to-point integrations. Its current focus, PeriMind, is an
+  enterprise control plane for AI that secures, governs, and audits every interaction
+  between AI agents and enterprise systems, data, and applications. Cinchy exposes a
+  REST API for executing Cinchy Query Language (CQL), calling versioned saved queries,
+  triggering data-sync jobs, and managing secrets, with authentication via bearer
+  tokens, personal access tokens, HTTP Basic, and an embedded OAuth2/OIDC IdentityServer.
+  Official Angular and JavaScript SDKs and embeddable app experiences are published on
+  GitHub. Cinchy was surfaced as a Techstars portfolio company.
 url: https://raw.githubusercontent.com/api-evangelist/cinchy/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Data
+- Data Collaboration
+- Dataware
+- Data Integration
+- Data Governance
+- AI Governance
+- API
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +52,46 @@ maintainers:
 common:
 - type: Website
   url: https://cinchy.com/
+- type: Documentation
+  url: https://docs.cinchy.com/
+- type: APIReference
+  url: https://docs.cinchy.com/api-guide/
+- type: Support
+  url: https://support.cinchy.com
+- type: Blog
+  url: https://cinchy.com/blog/
+- type: GitHubOrganization
+  url: https://github.com/cinchy-co
+- type: TermsOfService
+  url: https://cinchy.com/terms/
+- type: PrivacyPolicy
+  url: https://cinchy.com/privacy/
+- type: TrustCenter
+  url: https://trustcenter.cinchy.com/
+- type: ChangeLog
+  url: https://docs.cinchy.com/category/release-notes/
+- type: Packages
+  url: packages/cinchy-packages.yml
+- type: SDKs
+  url: packages/cinchy-packages.yml
+- type: Authentication
+  url: authentication/cinchy-authentication.yml
+- type: Conventions
+  url: conventions/cinchy-conventions.yml
+- type: Conformance
+  url: conformance/cinchy-conformance.yml
+- type: MCPServer
+  url: mcp/cinchy-mcp.yml
+- type: LLMsTxt
+  url: llms/cinchy-llms.txt
+- type: Lifecycle
+  url: lifecycle/cinchy-lifecycle.yml
+- type: Components
+  url: components/cinchy-components.yml
+- type: DomainSecurity
+  url: security/cinchy-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

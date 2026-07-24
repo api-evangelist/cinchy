@@ -1,0 +1,20 @@
+generated: '2026-07-18'
+method: searched
+source: https://github.com/cinchy-co
+packages:
+  - language: typescript
+    registry: npm
+    name: "@cinchy-co/angular-sdk"
+    url: https://www.npmjs.com/package/@cinchy-co/angular-sdk
+    repository: https://github.com/cinchy-co/angular-sdk
+    version: 6.1.0
+    license: MIT
+    install: npm install @cinchy-co/angular-sdk
+    official: true
+  - language: javascript
+    registry: github
+    name: cinchy-co/javascript-sdk
+    url: https://github.com/cinchy-co/javascript-sdk
+    repository: https://github.com/cinchy-co/javascript-sdk
+    license: GPL-3.0
+    official: true

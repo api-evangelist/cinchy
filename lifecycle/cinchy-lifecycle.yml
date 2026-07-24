@@ -1,0 +1,16 @@
+generated: '2026-07-18'
+method: searched
+source: https://docs.cinchy.com/
+versioning:
+  scheme: uri-path
+  evidence: Saved-query API paths embed a version segment (/API/v[version]/...).
+release_notes: https://docs.cinchy.com/category/release-notes/
+deprecation:
+  policy_url: null
+  notes: No formal deprecation / Sunset-header policy found in public docs.
+status_page: null
+sla:
+  url: null
+  notes: >-
+    Health endpoints exist (/healthcheck, /idp/healthcheck, /connections/healthcheck,
+    /metaforms/healthcheck) but no public hosted status page was found.

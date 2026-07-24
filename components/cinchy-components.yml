@@ -1,0 +1,22 @@
+generated: '2026-07-18'
+method: searched
+source: https://github.com/cinchy-co
+notes: >-
+  Cinchy publishes embeddable "app experiences" (prebuilt UI surfaces that render
+  Cinchy data models) alongside the Angular SDK loader. Distinct from server-side SDKs.
+families:
+  - name: Meta-Forms
+    kind: embedded-app-experience
+    repository: https://github.com/cinchy-co/meta-forms-app-experience
+    license: MIT
+  - name: Meta-Reports
+    kind: embedded-app-experience
+    repository: https://github.com/cinchy-co/meta-reports-app-experience
+    license: MIT
+  - name: Meta-Calendar
+    kind: embedded-app-experience
+    repository: https://github.com/cinchy-co/meta-calendar-app-experience
+    license: MIT
+loaders:
+  - name: "@cinchy-co/angular-sdk"
+    url: https://www.npmjs.com/package/@cinchy-co/angular-sdk

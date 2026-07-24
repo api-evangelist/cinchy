@@ -1,0 +1,30 @@
+generated: '2026-07-18'
+method: derived
+status: candidate
+source: https://docs.cinchy.com/api-guide/
+notes: >-
+  No official Cinchy-hosted MCP server was found. This is a CANDIDATE tool list
+  derived from the REST endpoints documented in the Cinchy API guide, to inform a
+  future MCP server. Not an authoritative provider claim.
+server:
+  name: cinchy
+  transport: http
+tools:
+  - name: execute_cql
+    description: Execute Cinchy Query Language (CQL) directly via POST.
+    source_operation: docs.cinchy.com/api-guide#/API/ExecuteCQL
+  - name: run_saved_query
+    description: Call a pre-configured, versioned saved query.
+    source_operation: docs.cinchy.com/api-guide#/API/v[version]/{domain}/{query}
+  - name: trigger_job
+    description: Trigger a batch data-sync (Connections) job.
+    source_operation: docs.cinchy.com/api-guide#/api/jobs
+  - name: get_secret
+    description: Retrieve a secret from the Secrets Manager table.
+    source_operation: docs.cinchy.com/api-guide#/api/v1.0/secrets-manager
+  - name: clear_cache
+    description: Clear platform cache data.
+    source_operation: docs.cinchy.com/api-guide#/cache/clear
+  - name: healthcheck
+    description: Return platform health status.
+    source_operation: docs.cinchy.com/api-guide#/healthcheck

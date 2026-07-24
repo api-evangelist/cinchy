@@ -1,0 +1,29 @@
+# Cinchy
+
+> Cinchy is a data collaboration / dataware platform whose network-based data architecture lets applications share live, governed data without copies or point-to-point integration. Its current focus, PeriMind, is an enterprise control plane for AI that secures, governs, and audits interactions between AI agents and enterprise systems and data. The platform exposes a REST API for executing Cinchy Query Language (CQL), running saved queries, triggering data-sync jobs, and managing secrets.
+
+## APIs
+- [Cinchy API guide](https://docs.cinchy.com/api-guide/): REST API — ExecuteCQL, versioned saved queries, jobs, secrets manager, health checks.
+
+## Docs
+- [Documentation](https://docs.cinchy.com/): Platform documentation.
+- [Get help](https://docs.cinchy.com/getting-help/): Support and help resources.
+- [Release notes](https://docs.cinchy.com/category/release-notes/): Dated platform release notes.
+- [Support](https://support.cinchy.com): Support portal.
+
+## SDKs
+- [Angular SDK](https://www.npmjs.com/package/@cinchy-co/angular-sdk): Official Angular/TypeScript SDK (@cinchy-co/angular-sdk).
+- [JavaScript SDK](https://github.com/cinchy-co/javascript-sdk): Official JavaScript SDK.
+
+## Components
+- [Meta-Forms](https://github.com/cinchy-co/meta-forms-app-experience): Embeddable forms app experience.
+- [Meta-Reports](https://github.com/cinchy-co/meta-reports-app-experience): Embeddable reports app experience.
+- [Meta-Calendar](https://github.com/cinchy-co/meta-calendar-app-experience): Embeddable calendar app experience.
+
+## Company
+- [Website](https://cinchy.com/): Company homepage.
+- [Blog](https://cinchy.com/blog/): Company blog.
+- [GitHub](https://github.com/cinchy-co): Public repositories and SDKs.
+- [Trust Center](https://trustcenter.cinchy.com/): Security and compliance posture.
+- [Terms of Service](https://cinchy.com/terms/)
+- [Privacy Policy](https://cinchy.com/privacy/)

@@ -1,0 +1,33 @@
+generated: '2026-07-18'
+method: searched
+source: https://docs.cinchy.com/api-guide/
+docs: https://docs.cinchy.com/api-guide/
+authentication:
+  style: bearer-token / personal-access-token / basic / oauth2
+  see: authentication/cinchy-authentication.yml
+query_model:
+  language: CQL (Cinchy Query Language)
+  execute_endpoint: /API/ExecuteCQL
+  saved_query_endpoint: "/API/v[version]/{domain}/{query}"
+  description: >-
+    Data is accessed either by executing Cinchy Query Language (CQL) directly via
+    POST to /API/ExecuteCQL, or by calling pre-configured saved queries under a
+    versioned path.
+versioning:
+  scheme: uri-path
+  evidence: Saved-query API paths embed a version segment (/API/v[version]/...).
+response_formats:
+  - json
+  - xml
+  - csv
+  - tsv
+  - protobuf
+error_envelope:
+  documented: false
+  notes: No RFC 9457 problem+json envelope observed in public docs.
+idempotency:
+  documented: false
+  notes: No idempotency-key header/parameter is documented; no Idempotency pointer emitted.
+pagination:
+  documented: false
+  notes: Result set shaping is handled inside CQL rather than a documented cursor/offset convention.
