@@ -1,0 +1,34 @@
+# Front Door AI Index — cinchy — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: cinchy
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: cinchy.com
+  final_host: cinchy.com
+  ownership: own
+  owner: cinchy
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 111
+  host_score: 111
+  density: 77.51
+  words: 1432
+  tiers:
+    agentic: 20
+    core: 88
+    model: 3
+  ambiguous: 27
+  top_terms:
+    AI: 85
+    agent: 27
+    AI agent: 15
+    LLMs: 3
+    MCP: 2
+    copilot: 2
+    ChatGPT: 1
+    Claude: 1
+    Gemini: 1
+    prompts: 1
